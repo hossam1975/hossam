@@ -1,11 +1,3 @@
-
-def check_if_contains_truthy(data):
-    for item in data:
-        if item:
-            return True
-    return False
-print(check_if_contains_truthy(an_iterable
-                               
 from timeit import timeit
 print("Execution time for 'check_if_contains_truthy()'")
 print(
@@ -23,4 +15,3 @@ print(
         globals=globals(),
     )
 )
-
